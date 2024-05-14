@@ -1,5 +1,7 @@
 <p align="center">
-<img src="https://github.com/AntarCreates/tinyTurtle/assets/81281780/b0d715eb-0868-4717-89b4-4e05b1c8ddcc" height="250" width="600"/>
+<img src="https://github.com/AntarCreates/tinyTurtle/assets/81281780/c3ee4a0b-57a0-4a2e-9aae-60bfbf3fbdd2 height="250" width="600"/>
+
+
 </p>
 
 # 1. Hardware Requirements:
