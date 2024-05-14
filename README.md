@@ -17,6 +17,7 @@ Firstly, **do not** think of this project as a guide; it's rather an open journa
 
 
 # 1. Technical stuff
+## 1.1 [Hardware and Software requirements](https://github.com/AntarCreates/tinyTurtle/edit/main/hardware_and_software.md)
 
 
 
