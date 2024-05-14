@@ -1,12 +1,16 @@
 # 0. About tinyTurtle
-<p align="left">
-<img src="https://github.com/AntarCreates/tinyTurtle/assets/81281780/951f558c-7a50-4587-adb6-7d57f8c82dde" width="500" height="250" align="center" />
+<p align="left"> 
+<img src="https://github.com/AntarCreates/tinyTurtle/assets/81281780/ae64c241-5127-47f3-ab3d-6a1d143c4175" width="500" height="250" align="center" />
+
+
 </p>
 
 tinyTurtle is a low-cost open-source robotic platform running on tinyML and microROS. This was developed to provide an alternative to expensive gears for those pursuing mobile robotics with limited resources [like me!]. It was primarily dedicated for robot swarm, mapping & navigation. 
 
 <p align="right">
-<img src="https://github.com/AntarCreates/tinyTurtle/assets/81281780/392812b9-1e2f-4f99-bcea-7a34e67f3bcb" width="700" height="250" align="center" />
+<img src="https://github.com/AntarCreates/tinyTurtle/assets/81281780/c4ed7faa-5645-428d-92b2-11d42d20944d" width="650" height="250" align="center" />
+
+
 </p>
 
 Firstly, **do not** think of this project as a guide; it's rather an open journal. The project is something I am exploring myself and sharing my findings as I go. You can use all the resources available here and do as you like and/or even better you can contribute to this project to make it much better, which I highly encourage. That being said, there are two ways you can get along:
