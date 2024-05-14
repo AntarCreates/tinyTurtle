@@ -18,7 +18,10 @@ Firstly, **do not** think of this project as a guide; it's rather an open journa
 1. You could follow me as I go along sharing my projects, which is not recommended as my interests are, in a word, "capricious" and may not be what you intend to do. Furthermore, following me would be quite time intensive as at the time of writing this I am working on two gigs so I can barely manage time for regular updates on a hobby project. However, if you just want to learn with no specific goal in a chill pace, you are welcome to follow me. _OR_
   
 2. You could use the resources to build your own projects, help those having similar issues and and contribute to the overall open-source/open-journal nature of this repo, which I highly recommend. You are open to let me know of my mistakes as well. Let's improve together, eh?
+
+
 ![image](https://github.com/AntarCreates/tinyTurtle/assets/81281780/16170af1-b887-4060-9d6a-a15acdee36ab)
+
 
 
 
