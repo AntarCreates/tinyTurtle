@@ -25,7 +25,7 @@ Wheel Specs:
     -  ESP32 DEVKIT V1 38 Pins x1
 6. **Power Supply:** 11.1 V 1100 mAh Li-Po battery x1
 7. **Peripherals-**
-   - 55 mm M2 nuts and bolts x8
+   - 55 mm M3 nuts and bolts x8
     - Lots of jumper cables (>x20)
     - Electrical cable ties/zip ties x10
 
