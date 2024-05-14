@@ -1,6 +1,8 @@
 # 0. Motivation
 
-![giphy](https://github.com/AntarCreates/tinyTurtle/assets/81281780/9923d01c-1c2a-4c7a-ab06-b5acabab8262)
+![image](https://github.com/AntarCreates/tinyTurtle/assets/81281780/7079ef7c-5312-4cea-a423-131e2538ae81)
+
+
 
 # 1. About tinyTurtle
 <p align="left"> 
