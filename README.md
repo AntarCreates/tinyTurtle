@@ -1,6 +1,7 @@
 # 0. Motivation
 
-![image](https://github.com/AntarCreates/tinyTurtle/assets/81281780/7079ef7c-5312-4cea-a423-131e2538ae81)
+![image](https://github.com/AntarCreates/tinyTurtle/assets/81281780/242239a7-99eb-460a-a3aa-16c8f71f7364)
+
 
 
 
