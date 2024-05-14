@@ -30,6 +30,8 @@ Firstly, **do not** think of this project as a guide; it's rather an open journa
 
 
 # ... Working on the rest!
+![image](https://github.com/AntarCreates/tinyTurtle/assets/81281780/5fe8dc5e-9b3e-4ba8-9b47-761e5238fdb1)
+
 
 
 
