@@ -6,15 +6,27 @@
 There are no specific restrictions on what the hardware components should be. You could use them as per your preference and availability. As for my case, I used the following:
 
 1. **Chassis:** [3D printable chassis](https://github.com/AntarCreates/tinyTurtle/tree/main/meshes)
-2. **Drives:** N20 Micro Metal Gear DC Motors with 2 Phase Magnetic Encoders x2 with wheels
+2. **Drives:**
+      - N20 Micro Metal Gear DC Motors with 2 Phase Magnetic Encoders x2
+        
+        _Motor Specs:_
+
+        ![image](https://github.com/AntarCreates/tinyTurtle/assets/81281780/3a657389-978a-4571-a515-60cd77d58f63)
+      - wheels X2
+
+        _Wheel Specs:_
+
+        ![image](https://github.com/AntarCreates/tinyTurtle/assets/81281780/6d56d104-7016-4662-8c61-087d0165e640)
+
+      - Caster wheel x2
+  
+        _Caster wheel specs:_
+        
+        ![image](https://github.com/AntarCreates/tinyTurtle/assets/81281780/188a216c-85b3-4b7c-9212-ca195523e1bb)
+
    
-Motor Specs:
 
-![image](https://github.com/AntarCreates/tinyTurtle/assets/81281780/3a657389-978a-4571-a515-60cd77d58f63)
 
-Wheel Specs:
-
-![image](https://github.com/AntarCreates/tinyTurtle/assets/81281780/6d56d104-7016-4662-8c61-087d0165e640)
 
 
 4. **Motor Driver:** L298n H-Bridge motor driver x1
