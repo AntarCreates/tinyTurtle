@@ -36,7 +36,9 @@ Firstly, **do not** think of this project as a guide; it's rather an open journa
 
 
 # 2. Technical stuff
-## 1.1 [Hardware and Software requirements](https://github.com/AntarCreates/tinyTurtle/blob/main/hardware_and_software.md)
+## 2.1 [Hardware and Software requirements](https://github.com/AntarCreates/tinyTurtle/blob/main/hardware_and_software.md)
+## 2.2 [Simulate the robot in Gazebo Classic and Visualize in Rviz2](https://github.com/AntarCreates/tinyTurtle/blob/main/gazebo_simulation.md)
+
 
 
 
