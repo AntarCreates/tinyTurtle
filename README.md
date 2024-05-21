@@ -1,13 +1,13 @@
 # 0. Motivation
 
-![image](https://github.com/AntarCreates/tinyTurtle/assets/81281780/242239a7-99eb-460a-a3aa-16c8f71f7364)
+<img src="https://github.com/AntarCreates/tinyTurtle/assets/81281780/242239a7-99eb-460a-a3aa-16c8f71f7364" height="500"/>
 
 
 
 
 # 1. About tinyTurtle
 <p align="left"> 
-<img src="https://github.com/AntarCreates/tinyTurtle/assets/81281780/ae64c241-5127-47f3-ab3d-6a1d143c4175" width="500" height="250" align="center" />
+<img src="https://github.com/AntarCreates/tinyTurtle/assets/81281780/ae64c241-5127-47f3-ab3d-6a1d143c4175" height="250" align="center" />
 
 
 </p>
@@ -16,7 +16,7 @@ tinyTurtle is a low-cost open-source robotic platform running on tinyML and micr
 
 
 <p align="right">
-<img src="https://github.com/AntarCreates/tinyTurtle/assets/81281780/c4ed7faa-5645-428d-92b2-11d42d20944d" width="650" height="250" align="center" />
+<img src="https://github.com/AntarCreates/tinyTurtle/assets/81281780/c4ed7faa-5645-428d-92b2-11d42d20944d" height="250" align="center" />
 
 
 </p>
