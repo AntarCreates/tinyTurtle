@@ -32,3 +32,4 @@ You shoudld see a similar interface [without the object infront of the camera] .
 `ros2 launch tinyturtle_description display.launch.py`
 ![image](https://github.com/AntarCreates/tinyTurtle/assets/81281780/ae2a60da-1430-4cb7-b6e3-0ec6adb72e36)
 
+![image](https://github.com/AntarCreates/tinyTurtle/assets/81281780/503e82ed-0f98-4612-949b-59310509714b)
