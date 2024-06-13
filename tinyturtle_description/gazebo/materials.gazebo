@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<robot name="tinyturtle" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<xacro:property name="body_color" value="Gazebo/Silver" />
+<xacro:property name="base_link_color" value="Gazebo/White" />
+<xacro:property name="lidar_camera_color" value="Gazebo/BlackTransparent" />
+<xacro:property name="tyre_color" value="Gazebo/Black" />
+<xacro:property name="mid_station_color" value="Gazebo/Gold" />
+
+<gazebo reference="base_link">
+  <material>${base_link_color}</material>
+</gazebo>
+
+<gazebo reference="mid_station_1">
+  <material>${mid_station_color}</material>
+</gazebo>
+
+<gazebo reference="top_station_1">
+  <material>${base_link_color}</material>
+</gazebo>
+
+<gazebo reference="left_wheel_1">
+  <material>${body_color}</material>
+</gazebo>
+
+<gazebo reference="right_wheel_1">
+  <material>${body_color}</material>
+</gazebo>
+
+<gazebo reference="left_tire_1">
+  <material>${tyre_color}</material>
+</gazebo>
+
+<gazebo reference="right_tire_1">
+  <material>${tyre_color}</material>
+</gazebo>
+
+<gazebo reference="front_caster_1">
+  <material>${body_color}</material>
+</gazebo>
+
+<gazebo reference="rear_caster_1">
+  <material>${body_color}</material>
+</gazebo>
+
+<gazebo reference="camera_1">
+  <material>${lidar_camera_color}</material>
+</gazebo>
+
+<gazebo reference="lidar_link_1">
+  <material>${lidar_camera_color}</material>
+</gazebo>
+
+</robot>

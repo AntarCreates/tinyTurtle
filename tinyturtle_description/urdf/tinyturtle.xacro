@@ -1,0 +1,316 @@
+<?xml version="1.0" ?>
+<robot name="tinyturtle" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find tinyturtle_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find tinyturtle_description)/urdf/tinyturtle.trans" />
+
+
+<!-- <xacro:include filename="$(find tinyturtle_description)/urdf/tinyturtle.gazebo" /> -->
+<!-- adding separate files for gazebo -->
+
+<xacro:include filename="$(find tinyturtle_description)/gazebo/materials.gazebo" />
+<xacro:include filename="$(find tinyturtle_description)/gazebo/physics.gazebo" />
+<xacro:include filename="$(find tinyturtle_description)/gazebo/plugins.gazebo" />
+
+
+
+<!-- base link -->
+<link name="base_link">
+  <inertial>
+    <origin xyz="-3.8884077348068694e-05 4.385143531120217e-10 0.025971334122837374" rpy="0 0 0"/>
+    <mass value="0.029830453519326734"/>
+    <inertia ixx="2e-05" iyy="3.5e-05" izz="5.3e-05" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="white"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="mid_station_1">
+  <inertial>
+    <origin xyz="-0.03587245502398586 0.025261333701753666 0.0027084611106621" rpy="0 0 0"/>
+    <mass value="0.040353779002592106"/>
+    <inertia ixx="4.3e-05" iyy="5.9e-05" izz="9.4e-05" ixy="0.0" iyz="-0.0" ixz="-6e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.044939 0.025166 -0.067" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/mid_station_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="gold"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.044939 0.025166 -0.067" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/mid_station_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="top_station_1">
+  <inertial>
+    <origin xyz="-0.0254615429776155 0.04636813846946754 -0.0009623973048854956" rpy="0 0 0"/>
+    <mass value="0.01951205659450281"/>
+    <inertia ixx="1.6e-05" iyy="1.6e-05" izz="3.2e-05" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.025097 0.045915 -0.107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/top_station_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="white"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.025097 0.045915 -0.107" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/top_station_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_wheel_1">
+  <inertial>
+    <origin xyz="-2.1565797536785204e-07 -0.0034995370293343583 4.050121014675945e-07" rpy="0 0 0"/>
+    <mass value="0.004915556649893954"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-3.8e-05 -0.043329 -0.029384" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-3.8e-05 -0.043329 -0.029384" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_wheel_1">
+  <inertial>
+    <origin xyz="-2.1565797538000865e-07 0.0034995370293343583 4.050121014537167e-07" rpy="0 0 0"/>
+    <mass value="0.0049155566498939535"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-3.8e-05 0.043329 -0.029384" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-3.8e-05 0.043329 -0.029384" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_tire_1">
+  <inertial>
+    <origin xyz="-0.00015031040641454374 -0.0015382263030908963 -4.7329059971526477e-07" rpy="0 0 0"/>
+    <mass value="0.014831585214886022"/>
+    <inertia ixx="3e-06" iyy="5e-06" izz="3e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.000188 -0.043329 -0.029385" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/left_tire_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.000188 -0.043329 -0.029385" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/left_tire_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_tire_1">
+  <inertial>
+    <origin xyz="-0.0001503119344348377 0.0015382233794013697 -4.731892769803403e-07" rpy="0 0 0"/>
+    <mass value="0.014831595637485923"/>
+    <inertia ixx="3e-06" iyy="5e-06" izz="3e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.000188 0.043329 -0.029385" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/right_tire_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.000188 0.043329 -0.029385" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/right_tire_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="front_caster_1">
+  <inertial>
+    <origin xyz="-0.00025481119581895195 0.009066078054469625 -0.008819545621607142" rpy="0 0 0"/>
+    <mass value="0.01588977533199715"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0585 0.009 -0.025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/front_caster_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="white"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0585 0.009 -0.025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/front_caster_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rear_caster_1">
+  <inertial>
+    <origin xyz="0.000254811195818945 0.009066078054469623 -0.008819545621607142" rpy="0 0 0"/>
+    <mass value="0.01588977533199714"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0585 0.009 -0.025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/rear_caster_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="white"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0585 0.009 -0.025" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/rear_caster_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_1">
+  <inertial>
+    <origin xyz="0.002636817104400224 2.935679343227856e-09 8.584806467232253e-07" rpy="0 0 0"/>
+    <mass value="0.0018171422011454747"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.066 -0.000151 -0.078163" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="black_transparent"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.066 -0.000151 -0.078163" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/camera_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+
+<!-- comment this part if you do not want the LiDAR -->
+<link name="lidar_link_1">
+  <inertial>
+    <origin xyz="4.8200504761674874e-05 -1.3306782051679926e-05 0.045385449064346814" rpy="0 0 0"/>
+    <mass value="0.4709889042322631"/>
+    <inertia ixx="0.000165" iyy="0.000165" izz="0.000292" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.106" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/lidar_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="black_transparent"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.106" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tinyturtle_description)/meshes/lidar_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+<!-- ################################################################################################################################### -->
+
+
+<!-- joints -->
+<joint name="base2mid" type="fixed">
+  <origin xyz="0.044939 -0.025166 0.067" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="mid_station_1"/>
+</joint>
+
+<joint name="mid2top" type="fixed">
+  <origin xyz="-0.019842 -0.020749 0.04" rpy="0 0 0"/>
+  <parent link="mid_station_1"/>
+  <child link="top_station_1"/>
+</joint>
+
+<joint name="left_motor" type="continuous">
+  <origin xyz="3.8e-05 0.043329 0.029384" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="left_wheel_1"/>
+  <axis xyz="-0.0 1.0 -0.0"/>
+</joint>
+
+<joint name="right_motor" type="continuous">
+  <origin xyz="3.8e-05 -0.043329 0.029384" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="right_wheel_1"/>
+  <axis xyz="-0.0 1.0 -0.0"/>
+</joint>
+
+<joint name="left_wheel2tyre" type="fixed">
+  <origin xyz="0.00015 0.0 1e-06" rpy="0 0 0"/>
+  <parent link="left_wheel_1"/>
+  <child link="left_tire_1"/>
+</joint>
+
+<joint name="right_wheel2tyre" type="fixed">
+  <origin xyz="0.00015 0.0 1e-06" rpy="0 0 0"/>
+  <parent link="right_wheel_1"/>
+  <child link="right_tire_1"/>
+</joint>
+
+<joint name="base2caster1" type="fixed">
+  <origin xyz="0.0585 -0.009 0.025" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="front_caster_1"/>
+</joint>
+
+<joint name="base2caster2" type="fixed">
+  <origin xyz="-0.0585 -0.009 0.025" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="rear_caster_1"/>
+</joint>
+
+<joint name="camera_joint" type="fixed">
+  <origin xyz="0.021061 0.025317 0.011163" rpy="0 0 0"/>
+  <parent link="mid_station_1"/>
+  <child link="camera_1"/>
+</joint>
+
+<joint name="lidar_joint" type="fixed">
+  <origin xyz="-0.025097 0.045915 -0.001" rpy="0 0 0"/>
+  <parent link="top_station_1"/>
+  <child link="lidar_link_1"/>
+</joint>
+
+</robot>
