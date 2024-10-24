@@ -1,3 +1,6 @@
+
+# _Update: We actually had our very first succesful implementation of the tinyTurtle platform. For details have a look at  our preprint: [L-VITeX: Light-weight Visual Intuition for Terrain Exploration](https://arxiv.org/abs/2410.07872)_
+
 # 0. Motivation
 
 <img src="https://github.com/AntarCreates/tinyTurtle/assets/81281780/242239a7-99eb-460a-a3aa-16c8f71f7364" height="500"/>
